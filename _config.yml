@@ -43,15 +43,17 @@ author:
   # Used by `jekyll-feed`:
   name:                aigle
   email:               aiglelevant@gmail.com
-  # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  social:
+    github: https://github.com/aigle-levant
+  about: |
+    Greetings, this is Aigle!
 
 # Add links to the sidebar.
 menu:
-  - title:             Linkedin
-    url:               https://www.linkedin.com/in/prajanya-subramanian/
-  - title:             GitHub
-    url:               https://github.com/aigle-levant
+  - title:             Notes
+    url:               ""
+  - title:             About
+    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -333,6 +335,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-avatar
 
 
 # SEO Tag

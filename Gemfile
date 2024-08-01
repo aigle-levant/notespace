@@ -31,6 +31,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 # A JavaScript runtime for ruby that helps with running the katex gem above.
 gem "duktape"
+gem "jekyll-avatar"
 
 # Fixes `jekyll serve` in ruby 3
 gem "webrick"
